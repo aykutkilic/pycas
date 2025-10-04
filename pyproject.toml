@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pycas"
-version = "0.1.1"
+version = "0.1.2"
 description = "Pure Python library for reading and converting Atari 8-bit cassette (CAS) files"
 readme = "README.md"
 requires-python = ">=3.6"
@@ -42,7 +42,7 @@ Repository = "https://github.com/aykutkilic/pycas"
 "Bug Tracker" = "https://github.com/aykutkilic/pycas/issues"
 
 [project.scripts]
-pycas = "cas_reader:main"
+pycas = "pycas.cas_reader:main"
 
 [project.optional-dependencies]
 dev = [
@@ -53,7 +53,7 @@ dev = [
 ]
 
 [tool.setuptools]
-py-modules = ["cas_reader"]
+packages = ["pycas"]
 
 [tool.black]
 line-length = 100

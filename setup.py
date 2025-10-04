@@ -11,7 +11,7 @@ long_description = (this_directory / "README.md").read_text(encoding='utf-8')
 
 setup(
     name="pycas",
-    version="0.1.1",
+    version="0.1.2",
     author="Aykut Kılıç",
     author_email="battalaykut@gmail.com",
     description="Pure Python library for reading and converting Atari 8-bit cassette (CAS) files",
@@ -24,7 +24,6 @@ setup(
         "Source Code": "https://github.com/aykutkilic/pycas",
     },
     packages=find_packages(exclude=["tests", "tests.*"]),
-    py_modules=["cas_reader"],
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
@@ -57,7 +56,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "pycas=cas_reader:main",
+            "pycas=pycas.cas_reader:main",
         ],
     },
     keywords="atari cas cassette tape retro emulation converter",

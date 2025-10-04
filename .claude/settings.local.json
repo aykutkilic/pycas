@@ -4,7 +4,8 @@
       "WebFetch(domain:a8cas.sourceforge.net)",
       "Bash(git log:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"$(cat <<''EOF''\nAdd PyCAS library with CAS file reader and PyPI packaging\n\n- Implement complete CAS file format parser for Atari 8-bit cassette files\n- Add support for all chunk types (FUJI, baud, data, fsk, pwms, pwmc, pwmd, pwml)\n- Add binary (.bin) file conversion functionality\n- Add flexible hex/ASCII dump with chunk selection (ranges and lists)\n- Create comprehensive CLI with argparse (dump, --to-bin, --info commands)\n- Add PyPI packaging with setup.py, pyproject.toml, and MANIFEST.in\n- Add comprehensive README.md with API documentation and examples\n- Add MIT License\n- Version 0.1.1\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd PyCAS library with CAS file reader and PyPI packaging\n\n- Implement complete CAS file format parser for Atari 8-bit cassette files\n- Add support for all chunk types (FUJI, baud, data, fsk, pwms, pwmc, pwmd, pwml)\n- Add binary (.bin) file conversion functionality\n- Add flexible hex/ASCII dump with chunk selection (ranges and lists)\n- Create comprehensive CLI with argparse (dump, --to-bin, --info commands)\n- Add PyPI packaging with setup.py, pyproject.toml, and MANIFEST.in\n- Add comprehensive README.md with API documentation and examples\n- Add MIT License\n- Version 0.1.1\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []

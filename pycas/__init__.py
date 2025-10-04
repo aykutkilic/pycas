@@ -4,7 +4,7 @@ PyCAS - Python CAS File Reader
 A pure Python library for reading and converting Atari 8-bit cassette (CAS) files.
 """
 
-from cas_reader import (
+from pycas.cas_reader import (
     CASReader,
     Chunk,
     ChunkHeader,
@@ -13,7 +13,7 @@ from cas_reader import (
     parse_chunk_selection,
 )
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 __author__ = "Aykut Kılıç"
 __license__ = "MIT"
 
