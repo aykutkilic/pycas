@@ -13,8 +13,8 @@ from pycas.cas_reader import (
     parse_chunk_selection,
 )
 
-__version__ = "0.1.2"
-__author__ = "Aykut Kılıç"
+__version__ = "0.1.3"
+__author__ = "Claude.ai Sonnet 4.5 - Prompted by Aykut Kılıç"
 __license__ = "MIT"
 
 __all__ = [

@@ -298,7 +298,7 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 
 ## Author
 
-Aykut Kılıç
+Claude.ai Sonnet 4.5 - Prompted by Aykut Kılıç
 
 ## Changelog
 

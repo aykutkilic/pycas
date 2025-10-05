@@ -11,8 +11,8 @@ long_description = (this_directory / "README.md").read_text(encoding='utf-8')
 
 setup(
     name="atari-cas-reader",
-    version="0.1.2",
-    author="Aykut Kılıç",
+    version="0.1.3",
+    author="Claude.ai Sonnet 4.5 - Prompted by Aykut Kılıç",
     author_email="battalaykut@gmail.com",
     description="Pure Python library for reading and converting Atari 8-bit cassette (CAS) files",
     long_description=long_description,
