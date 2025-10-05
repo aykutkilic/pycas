@@ -3,7 +3,7 @@ requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pycas"
+name = "atari-cas-reader"
 version = "0.1.2"
 description = "Pure Python library for reading and converting Atari 8-bit cassette (CAS) files"
 readme = "README.md"

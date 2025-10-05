@@ -17,7 +17,7 @@ A pure Python library for reading and converting Atari 8-bit cassette (CAS) file
 ### From PyPI
 
 ```bash
-pip install pycas
+pip install atari-cas-reader
 ```
 
 ### From source

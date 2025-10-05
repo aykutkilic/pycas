@@ -10,7 +10,7 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text(encoding='utf-8')
 
 setup(
-    name="pycas",
+    name="atari-cas-reader",
     version="0.1.2",
     author="Aykut Kılıç",
     author_email="battalaykut@gmail.com",
